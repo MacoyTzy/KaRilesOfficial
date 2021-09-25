@@ -31,7 +31,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   right: 15px;
   bottom: 15px;
   z-index: 99999;
-  background: #68A4C4;
+  background: #D03D56;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -43,7 +43,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   line-height: 0;
 }
 .back-to-top:hover {
-  background: #85b6cf;
+  background: #D03D56;
   color: #fff;
 }
 .back-to-top.active {
@@ -59,13 +59,13 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  background: #1e4356;
+  background: #800000;
 }
 #header.header-transparent {
   background: none;
 }
 #header.header-scrolled {
-  background: rgba(30, 67, 86, 0.8);
+  background: rgba(197, 0, 0, 0.384);
   height: 60px;
 }
 #header .logo h1 {
@@ -1239,7 +1239,7 @@ section {
   opacity: 0;
   transition: bottom ease-in-out 0.4s;
   text-align: center;
-  background: rgba(30, 67, 86, 0.8);
+  background: rgba(131, 2, 2, 0.486);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1579,7 +1579,7 @@ section {
   font-size: 22px;
   margin-bottom: 0px;
   padding: 0;
-  color: #1e4356;
+  color: #800000;
 }
 .blog .blog-author .social-links {
   margin: 0 10px 10px 0;
@@ -1833,11 +1833,16 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #0b212d;
+  background: #aa0202;
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
 }
+#footer .footer-scrolled {
+  background: rgba(197, 0, 0, 0.384);
+  height: 60px;
+}
+
 #footer .footer-newsletter {
   padding: 50px 0;
   background: #0d2735;
@@ -1881,9 +1886,9 @@ section {
   background: #468db3;
 }
 #footer .footer-top {
-  background: #0d2735;
-  border-top: 1px solid #17455e;
-  border-bottom: 1px solid #123649;
+  background: #800000;
+  border-top: 1px solid #D03D56;
+  border-bottom: 1px solid #D03D56;
   padding: 60px 0 30px 0;
 }
 #footer .footer-top .footer-info {
@@ -1894,7 +1899,7 @@ section {
   margin: 0 0 20px 0;
   padding: 2px 0 2px 0;
   line-height: 1;
-  color: #a2cce3;
+  color: #D14C30;
   font-weight: 600;
 }
 #footer .footer-top .footer-info p {
@@ -1926,7 +1931,7 @@ section {
 #footer .footer-top h4 {
   font-size: 18px;
   font-weight: 600;
-  color: #a2cce3;
+  color: #D14C30;
   position: relative;
   padding-bottom: 12px;
 }
