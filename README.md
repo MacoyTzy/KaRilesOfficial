@@ -18,6 +18,6 @@ Changelogs made during Beta:
 - Improved and updated dev version gulp scripts (Thanks to Marco & Marisol)
 
 ------
-!Contributors!:
-@MarcoDoes
+!Contributors!: <br>
+@MacoyTzy <br>
 @parientesm98
